@@ -1,0 +1,79 @@
+body { 
+background-color: #fcf8f2;
+  color: #333333;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+header {
+  background-color: #e52521;
+  color: white;
+  padding: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #fbd000;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+#cta-btn, #update-btn {
+  background-color: #43b047;
+  color: white;
+  border: none; 
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+section {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.service {
+  background-color: white;
+  border: 3px solid #e52521;
+  border-radius: 10px;
+  padding: 20px; 
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  background-color: #fbd000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
